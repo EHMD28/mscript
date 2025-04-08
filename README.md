@@ -22,12 +22,12 @@ start
     set Integer x to 2;
     set y to 4; # Data types can be omitted. #
 
-    set sum to x plus y;
-    set difference to x minus y;
-    set product to x times y;
-    set quotient to x div y;
-    set remainder to x mod y;
-    set power to x exp y;
+    set sum to x + y;
+    set difference to x - y;
+    set product to x * y;
+    set quotient to x / y;
+    set remainder to x % y;
+    set power to x ** y;
 end
 ```
 
